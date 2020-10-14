@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import "../style/Perfil.css";
-const Perfil = (props) => {
+const Profile = (props) => {
   const { history } = props;
   return (
-    <div className="Perfil">
+    <div className="Profile">
       <header>
         <nav className="navbar navbar-light bg-light">
           <span className="navbar-brand mb-0 h1">PERFIL DE USUARIO</span>
@@ -51,4 +51,4 @@ const Perfil = (props) => {
   );
 };
 
-export default Perfil;
+export default Profile;

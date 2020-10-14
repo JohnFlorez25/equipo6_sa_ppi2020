@@ -1,13 +1,13 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
 import "../style/Soporte.css";
-const Soporte = (props) => {
+const Support = (props) => {
 const {history}=props;
   return (
-    <div className="Soporte">
+    <div className="Support">
     <header>
       <nav className="navbar navbar-light bg-light">
-   <span className="navbar-brand mb-0 h1">SOPORTE</span>
+   <span className="navbar-brand mb-0 h1">Support</span>
   </nav>  
     </header>
   <form>
@@ -35,4 +35,4 @@ const {history}=props;
   );
   };
 
-  export default Soporte;
+  export default Support;

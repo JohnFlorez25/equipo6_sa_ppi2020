@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import "../style/Op2Nivel2.css";
-const Op2Nivel2 = (props) => {
+const P1Level2 = (props) => {
   const { history } = props;
   return (
     <div className="Op2Nivel2">
@@ -34,4 +34,4 @@ const Op2Nivel2 = (props) => {
   );
 };
 
-export default Op2Nivel2;
+export default P1Level2;

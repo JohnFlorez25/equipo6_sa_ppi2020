@@ -1,7 +1,7 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
 import "../style/Introduccion.css";
-const Introduccion = (props) => {
+const Introduction = (props) => {
   const {history}=props;
   return (
     <div className="Introduction">

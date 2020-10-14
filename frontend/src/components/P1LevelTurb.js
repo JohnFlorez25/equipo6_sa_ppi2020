@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import "../style/Op2NivelCausas.css";
-const Op2NivelCausas = (props) => {
+const P1LevelTurb = (props) => {
   const { history } = props;
   return (
-    <div className="Op2NivelCausas">
+    <div className="P1LevelTurb">
       <header>
         <nav className="navbar navbar-light bg-light">
           <span className="navbar-brand mb-0 h1">Level 1</span>
@@ -44,4 +44,4 @@ const Op2NivelCausas = (props) => {
   );
 };
 
-export default Op2NivelCausas;
+export default P1LevelTurb;

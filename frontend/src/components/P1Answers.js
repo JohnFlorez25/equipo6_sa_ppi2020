@@ -1,40 +1,40 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
 import "../style/Op2cuestionarioN2_1.css";
-const Op2cuestionarioN2_1 = (props) => {
+const P1Answers = (props) => {
 const {history}=props;
   return (
-    <div className="Op2cuestionarioN2_1">
-      <center><h1>CUESTIONARIO</h1></center>
-      <p className="Pregunta2">     
-      ¿Cuál es una de las consecuencias de la tala ilegal de árboles?
+    <div className="P1Answers">
+      <center><h1>Answer</h1></center>
+      <p className="P1Answers">     
+      ¿Cuáles son ejemplos de catástrofes geológicas?
       </p>
       <button 
       type="button" 
       class="btn btn-info btn-lg btn-block"
       onClick={() => history.push("/")}>
-      Falta de alimento
+      Deforestación, caza de animales y derrumbamiento de tierras por mano del hombre
       </button>
       <button 
       type="button" 
       class="btn btn-success btn-lg btn-block"
       onClick={() => history.push("/")}>
-      Sembrar
+      Terremotos, tsunamis, erupciones volcánicas, entre otros
       </button>
       <button 
       type="button" 
       class="btn btn-warning btn-lg btn-block"
       onClick={() => history.push("/")}>
-      Los animales
+      Contaminación de las aguas, los océanos y la muerte de seres marinos
       </button>
       <button 
       type="button" 
       class="btn btn-primary btn-lg btn-block"
       onClick={() => history.push("/*")}>
-      La desaparición de zonas
+      Oxidación de elementos metálicos, objetos vibratorios y calidad de los elementos
       </button>
     </div>
   );
 };
 
-export default Op2cuestionarioN2_1;
+export default P1Answers;

@@ -1,34 +1,27 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import "../style/Soluciones.css";
-const Soluciones = (props) => {
+const Solutions = (props) => {
   const { history } = props;
   return (
-    <div className="Soluciones">
+    <div className="Solutions">
       <header>
         <nav className="navbar navbar-light bg-light">
-          <span className="navbar-brand mb-0 h1">SOLUCIONES</span>
+          <span className="navbar-brand mb-0 h1">Solutions</span>
         </nav>
       </header>
 
-      <div className="Solucion">
+      <div className="Solutions">
         <strong>
           <p>
-            Las mejores soluciones viables para evitar graves daños por la tala
-            de árboles son:
+            Las mejores soluciones viables para aumentar el conocimiento del tema de los procesos geológicos en diversos planetas, es
           </p>
         </strong>
         <p>
-          -Plantar árboles en zonas de ciudades para que colabores a parar la
-          tala de árboles son con la oxigenación del aire para todos Programas y
-          grupos ambientales para la ayuda y el desarrollo de la tala de árboles
-          y recuperación de los bosques.
+          Mediante un aplicativo de software, desarrollar una aplicación que permita generar nuevo conocimiento a las personas que desconocen sobre este tema
         </p>
         <p>
-          - Tomar conciencia sobre las malas secuelas que deja ta tala de
-          arboles Proteger los bosques y zonas verdes y así aplicar una gran
-          importancia a la sociedad y convertirse en los pulmones verdes del
-          planeta.
+          Mediante la concientización, lograr que las personas que puedan utilizar el aplicativo de software, puedan conocer de cómo actuar ante eventos geológicos, comúnmente los terremotos. Pero también, busca del cómo prevenirse ante otros eventos.
         </p>
         <img className="Img2" src="./img/Imagen2.png" alt="Img02" />
 
@@ -44,4 +37,4 @@ const Soluciones = (props) => {
   );
 };
 
-export default Soluciones;
+export default Solutions;

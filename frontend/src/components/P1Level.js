@@ -1,7 +1,7 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
 import "../style/Op2Nivel2.css";
-const Op2Nivel2 = (props) => {
+const P1Level = (props) => {
 const {history}=props;
   return (
     <div className="Op2Nivel2">
@@ -14,11 +14,11 @@ const {history}=props;
       Consecuencias
       </h3>
       <div className="Consecuencias">
-      <strong><p>Las consecuencias más vistas y afectables de la tala de árboles son:</p></strong>
-          <p>-La desaparición de la vegetación en cualquier parte del mundo.</p>
-          <p>-La desaparición de las zonas forestadas, produce la pérdida de los animales ya que para su supervivencia es indispensable de estas zonas.</p>
-          <p>-La erosión de los suelos.</p>
-          <p>-Los líquidos que pueden afectar las aguas.</p>
+      <strong><p>Las consecuencias más evidentes de las catástrofes de origen natural o geológico son:</p></strong>
+          <p>En el caso de los terremotos: Movimiento y ruptura del suelo, corrimientos y deslizamientos de tierra, incendios, licuefacción del suelo, inundaciones e impactos humanos</p>
+          <p>Los impactos humanos de los terremotos son: Un sismo puede causar lesiones o incluso pérdidas de vidas, daños en las carreteras y puentes, daño general de los bienes, y colapso o desestabilización de edificios. También puede ser el origen de enfermedades, falta de necesidades básicas, y primas de seguros más elevadas. </p>
+          <p>En el caso de los maremotos: Debido a que la energía de los tsunamis tectónicos es casi constante, pueden llegar a cruzar océanos y afectar a costas muy alejadas del lugar del suceso. La trayectoria de las ondas puede modificarse por las variaciones del relieve abisal, fenómeno que no ocurre con las olas superficiales. A medida que un tsunami se aproxima a la costa, puede ascender varios metros o, en raras ocasiones, decenas de metros, y causar la pérdida de muchas vidas y daños a la propiedad al tocar tierra, inundación, erosión, incendios, contaminación del agua potable, brotes de infecciones y enfermedades, y colapso de construcciones</p>
+          <p>Hay más acontecimientos geológicos, pero ésta sería una breve descripción</p>
           
           <img className="Img1" src="./img/Img1.jpeg" alt="Img" />
 
@@ -33,4 +33,4 @@ const {history}=props;
   );
 };
 
-export default Op2Nivel2;
+export default P1Level;
