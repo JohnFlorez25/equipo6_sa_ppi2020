@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import "../style/Op2NivelCausas.css";
 const P1LevelTurb = (props) => {
   const { history } = props;
   return (

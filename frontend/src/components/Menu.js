@@ -1,6 +1,5 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
-import "../style/Menu.css";
 const Menu = (props) => {
 const {history}=props;
   return (

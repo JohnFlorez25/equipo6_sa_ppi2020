@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import "../style/Op2Nivel2.css";
 const P1Level2 = (props) => {
   const { history } = props;
   return (

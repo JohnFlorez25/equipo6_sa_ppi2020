@@ -1,6 +1,5 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
-import "../style/Introduccion.css";
 const Introduction = (props) => {
   const {history}=props;
   return (

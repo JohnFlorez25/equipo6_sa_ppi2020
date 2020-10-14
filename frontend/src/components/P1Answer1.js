@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import "../style/Op1Nivel1.css";
 const P1Answer1 = (props) => {
   const { history } = props;
   return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import "../style/Registro.css";
 const Registro = () => {
   return (
     <div className="Registro">
