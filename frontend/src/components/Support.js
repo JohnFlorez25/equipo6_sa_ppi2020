@@ -25,7 +25,7 @@ const {history}=props;
       <button 
       type="button" 
       class="btn btn-success btn-lg"
-      onClick={() => history.push("/CuestionarioN2")}>
+      onClick={() => history.push("/Profile")}>
       Enviar
       </button>
 </form>

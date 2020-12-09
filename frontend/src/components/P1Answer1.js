@@ -23,7 +23,7 @@ const P1Answer1 = (props) => {
           <button
             type="submit"
             class="btn btn-success btn-lg"
-            onClick={() => history.push("/CuestionarioN2")}
+            onClick={() => history.push("/P1Answer2")}
           >
             Continuar
           </button>

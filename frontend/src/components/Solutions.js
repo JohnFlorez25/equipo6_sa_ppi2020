@@ -27,9 +27,9 @@ const Solutions = (props) => {
         <center><button
           type="button"
           class="btn3 btn-success btn-lg"
-          onClick={() => history.push("/")}
+          onClick={() => history.push("/Support")}
         >
-          Volver
+          Soporte
         </button></center>
       </div>
     </div>
