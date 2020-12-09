@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import "../style/login.css";
 const Login = (props) => {
   const { history } = props;
   return (
@@ -13,7 +14,7 @@ const Login = (props) => {
             type="text"
             class="form-control"
             id="formGroupExampleInput"
-            placeholder="JheinyG"
+            placeholder="ArleyQ"
           />
         </div>
         <div class="form-group">
@@ -30,7 +31,11 @@ const Login = (props) => {
 
       <div>
         <p Header="margin: 4px" />
-        <button type="button" className="btn1 btn-secondary btn-lg">
+        <button
+          type="button"
+          className="btn1 btn-secondary btn-lg"
+          onClick={() => history.push("/Menu1")}
+        >
           Enterokay
         </button>
         <p Header="margin: 1px" />

@@ -10,7 +10,7 @@ const Start = (props) => {
       <button
         type="submit"
         class="btn btn-secondary btn-lg"
-        onClick={() => history.push("/Iniciosesion")}
+        onClick={() => history.push("/Login")}
       >
         Login
       </button>
